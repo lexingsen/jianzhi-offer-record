@@ -2,7 +2,7 @@
 struct ListNode {
     int val;
     ListNode* next, *random;
-    ListNode(int x):val(x), next(nullptr), next(random) {}
+    ListNode(int x):val(x), next(nullptr), random(nullptr) {}
 };
 
 
