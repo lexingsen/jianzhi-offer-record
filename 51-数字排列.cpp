@@ -51,7 +51,7 @@ public:
 void perm(vector<int>& nums, int p, int q) {
     if (p == q) {
         cout << "[";
-        for_each(nums.begin(), nums.end(), [] (int x) {cout << x << " ";});
+        for_each(nums.begin(), nums.end(), [] (int x) {cout << x;});
         cout << "]" << endl;
     }
     for (int i = p; i <= q; i++) {
